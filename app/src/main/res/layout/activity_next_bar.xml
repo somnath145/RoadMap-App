@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".next_bar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/back"
+            android:text="Discover Your Learning Path with RoadMap App
+
+Navigating the world of technology and programming can be overwhelming, but with the RoadMap App, finding your path has never been easier. Our app is designed to provide you with comprehensive roadmaps for key technical domains, including Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), Database Management Systems (DBMS), Artificial Intelligence (AI), Machine Learning (ML), and Python.
+
+Key Features:
+
+Structured Roadmaps: Access detailed, step-by-step roadmaps tailored to each domain. Whether you're a beginner or looking to deepen your expertise, our roadmaps guide you through essential topics and skills.
+
+Interactive Learning Paths: Follow curated learning paths that include essential concepts, recommended resources, and practical exercises to solidify your understanding.
+
+Customizable Plans: Tailor your learning journey based on your current knowledge and goals. Set milestones, track your progress, and adjust your roadmap as you advance.
+
+Resource Integration: Discover a wealth of learning materials including tutorials, articles, and video lectures, all integrated within the app to enhance your learning experience.
+
+Community Support: Connect with fellow learners, share insights, and seek help through our integrated forums and discussion groups.
+
+Progress Tracking: Keep track of your progress with built-in analytics and receive personalized recommendations based on your learning history.
+
+Why Choose RoadMap App?
+
+The RoadMap App is designed to make your learning journey smoother and more organized. With clear roadmaps and a range of resources at your fingertips, you'll be equipped to tackle complex topics with confidence and clarity. Empower your technical skills and achieve your learning goals with ease!"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:layout_width="150dp"
+        android:backgroundTint="#1E520D25"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:text="Next" />
+
+</LinearLayout>
